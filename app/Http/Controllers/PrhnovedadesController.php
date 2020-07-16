@@ -2,10 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Autore;
-use App\Editorial;
-use App\Paise;
-use App\Prhnovedades;
 use Illuminate\Http\Request;
 
 
