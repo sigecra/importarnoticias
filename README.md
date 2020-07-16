@@ -1,12 +1,14 @@
 # importador de noticias desde API Ocha
-Api empleada
+Api empleada:
+
 https://api.reliefweb.int/v1/reports?appname=prueba&profile=list&preset=latest&slim=1&query[value]=primary_country.id%3A250&query[operator]=AND
 
 
-Controlador 
+Controlador
+
 app/Http/Controllers/PrhnovedadesController.php
 
-Vista 
+Vista:   
 resources/views/noticias.blade.php
 
 
