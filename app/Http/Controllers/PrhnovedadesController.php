@@ -22,7 +22,6 @@ class PrhnovedadesController extends Controller
     public static function importarnoticias()
     {
         $json = file_get_contents('https://api.reliefweb.int/v1/reports?appname=prueba&profile=list&preset=latest&slim=1&query[value]=primary_country.id%3A250&query[operator]=AND');
-     dd($json);
         $objs = json_decode($json, true);
         foreach ($objs['data'] as $obj) {
             $registro = array();
